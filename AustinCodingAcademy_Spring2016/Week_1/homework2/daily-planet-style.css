@@ -1,6 +1,7 @@
 body {
     width: 75%;
     margin: 0 auto;
+    font-family: 'Helvetica', 'Arial', sans-serif;
 }
 
 header, nav, main, section, aside, footer {
@@ -34,12 +35,27 @@ nav li {
     display: inline;
     margin-right: 20px;
     text-align: left;
+    color: #ff0000;
 }
 
 nav a {
     text-decoration: none;
+    color: #ff0000;
 }
 
 header img#logo {
     width: 400px;
+}
+
+h1 {
+    font-size: 44px;
+    color: #ff0000;
+}
+
+h2 {
+    color: #484f6c;
+}
+
+aside h3 {
+    color: #484f6c;
 }

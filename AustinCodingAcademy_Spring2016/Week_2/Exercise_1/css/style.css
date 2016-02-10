@@ -1,0 +1,23 @@
+/* Styles for Wk2 Ex1 */
+
+
+body {
+    background-color: #439579;
+}
+
+p {
+    font-family: 'Questrial';
+    color: white;
+}
+
+#header01 {
+    font-size: 50px;
+    font-family: 'Michroma';
+    color: #fff;
+}
+
+.myParagraph {
+    color:aquamarine;
+    font-size: 36px;
+    border: 1px solid #234092;
+}

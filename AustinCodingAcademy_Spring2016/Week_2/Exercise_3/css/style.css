@@ -1,0 +1,97 @@
+/* Week 2 Exercise 3 */
+
+main {
+    font-family: 'Petrona', serif;
+}
+
+body {
+    background-image: url("/AustinCodingAcademy_Spring2016/Week_2/Exercise_3/img/symphony.png");
+}
+
+.container {
+    width: 1020px;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1 {
+    text-align: center;
+    font-size: 44px;
+    color: #993366;
+}
+
+h2, h3 {
+    color: #993366;
+}
+
+p {
+    font-size: 16px;
+    text-align: center;
+    line-height: 28px;
+}
+
+.instructions p {
+    line-height: normal;
+    text-align: left;
+}
+button {
+    font-family: 'Petrona';
+    text-transform: uppercase;
+    font-size: 14px;
+    background-color: #993366;
+    color: white;
+    padding: 10px;
+    letter-spacing: 3px;
+    clear: both;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+}
+
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+#img_box {
+    width: 500px;
+    float:left;
+    border: 3px solid white;
+    border-collapse: collapse;
+    padding: 0;
+}
+
+
+#text_box {
+    padding: 30px;
+    background-color: #d9d9d9;
+    width: 440px;
+    height: 334px;
+    text-align: center;
+    float: left;
+    border: 3px solid white;
+    border-collapse: collapse;
+}
+
+#cobbler, #salad {
+    height: auto; 
+    width: auto; 
+    max-width: 300px; 
+    max-height: auto;
+    float: left;
+    margin-top: 20px;
+}
+
+.instructions {
+    width: 500px;
+    background-color: #d9d9d9;
+    padding: 20px;
+    float: left;
+    margin: 20px;
+}
+
+span {
+    font-weight: lighter;
+}

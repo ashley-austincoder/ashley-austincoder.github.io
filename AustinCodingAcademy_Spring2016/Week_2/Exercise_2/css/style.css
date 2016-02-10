@@ -1,0 +1,36 @@
+/*Wk2 Ex2 CSS*/
+/*z
+div	80% wide, background color rgb(35, 52, 97), and center all content
+h1	Bold text, underline, and all caps
+p	Line height of 14.5 pixels
+a	remove underline, and make it bold
+image	resize to 50% */
+
+div {
+    width: 80%;
+    background-color: rgb(35,52,97);
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color:white;
+}
+
+h1 {
+    font-weight: bold;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+p {
+    line-height: 14.5px;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+img {
+    width: 50%;
+}
