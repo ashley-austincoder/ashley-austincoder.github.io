@@ -1,5 +1,84 @@
 /* Week 2 HW 1 CSS */
-
 * {
-    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
 }
+
+header {
+    background-color: #046abf;
+    color: white;
+    padding: 15px;
+}
+
+h1 {
+    font-weight: lighter;
+    font-size: 60px
+}
+ul li a {
+    color: white;
+    font-weight: lighter;
+    font-size: 16px;
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+body {
+    width: 960px;
+    margin: 25px auto;
+}
+
+
+h2 {
+    font-size: 34px;
+    font-weight: lighter;
+    margin: 10px 0;
+}
+
+h3 {
+    font-weight: lighter;
+    margin: 10px 0;
+    font-size: 22px;
+    color: #046abf;
+}
+
+#ready {
+    float: left;
+    width: 450px;
+}
+
+#img_processor {
+    float: right;
+    width: 480px;
+    height: 270px;
+}
+
+#overview_img {
+    float: left;
+    width: 480px;
+    height: 270px;
+}
+#architect {
+    width: 450px;
+    float: right;
+}
+
+#cust_support {
+    background-color: #d3d3d3;
+    padding: 20px;
+    clear: right;
+}
+
+#overview {
+    clear: right;
+}
+
+.push_down {
+    margin-top: 75px;
+    clear: both;
+}
+
