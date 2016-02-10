@@ -6,6 +6,7 @@ body {
 header, nav, main, section, aside, footer {
     padding: 5px;
     margin-top: 10px;
+    position: relative;
 }
 
 section, aside {
@@ -15,10 +16,30 @@ section, aside {
 section {
     width: 70%
 }
+
 aside {
     width: 20%;
 }
 
 footer {
     clear: both;
+    text-align: center;
+}
+
+img {
+    width: 200px;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+    text-align: left;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+header img#logo {
+    width: 400px;
 }
