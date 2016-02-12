@@ -1,0 +1,77 @@
+
+/* Type selector */
+p {
+    color: orange;
+    font-size: 22px;
+}
+
+p span {
+    color: cornflowerblue;
+    font-weight: bold;
+    text-decoration: line-through;
+}
+
+/* Class selector */
+em.highlight {
+    background-color: hotpink;
+}
+
+h4.highlight {
+    font-size: 3em;
+}
+
+strong.highlight {
+    font-weight: bold;
+    color: green;
+}
+
+.highlight {
+    text-decoration: underline;
+}
+
+/* ID selector */
+
+#overview > h4 {
+    font-family: monospace;
+}
+
+#strategy {
+    letter-spacing: .5em;
+    font-size: 28px;
+}
+
+/* Descendent selector */
+
+#ex4 aside h4 {
+    color: purple;
+}
+
+/* Child Selector */
+
+#example > article > p {
+    font-size: 10px;
+}
+
+
+
+/* Pseudo Selector */
+a:hover {
+    color: goldenrod;
+}
+
+li:hover {
+    color: fuchsia;
+    font-size: 50px;
+}
+
+li:nth-child(2) {
+    color: brown;
+}
+
+li:nth-child(3) {
+    color: cadetblue;
+}
+
+
+
+
