@@ -28,7 +28,7 @@ ul li {
 }
 
 body {
-    width: 960px;
+    width: 80%;
     margin: 25px auto;
 }
 
@@ -46,26 +46,16 @@ h3 {
     color: #046abf;
 }
 
-#ready {
+#ready, #overview_img {
     float: left;
-    width: 450px;
+    width: 50%;
 }
 
-#img_processor {
+#img_processor, #architect {
     float: right;
-    width: 480px;
-    height: 270px;
+    width: 50%;
 }
 
-#overview_img {
-    float: left;
-    width: 480px;
-    height: 270px;
-}
-#architect {
-    width: 450px;
-    float: right;
-}
 
 #cust_support {
     background-color: #d3d3d3;
@@ -78,7 +68,7 @@ h3 {
 }
 
 .push_down {
-    margin-top: 75px;
+    margin-top: 45px;
     clear: both;
 }
 
