@@ -113,6 +113,22 @@ aside {
     text-align: right;
 }
 
+aside li a:link, aside li a:visited {
+    color: #f1a91f;
+    text-decoration: none;
+    text-align: right;
+}
+
+aside ul {
+    display: inline-block;
+}
+ {
+    color: #f1a91f;
+    text-decoration: none;
+    text-align: right;
+}
+
+
 .self_clear:after {
   content: "";
   clear: both;
