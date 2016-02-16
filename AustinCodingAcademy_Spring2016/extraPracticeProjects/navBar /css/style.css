@@ -1,0 +1,50 @@
+header {
+    background-color: #333;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: right;
+    padding: 30px 12px 30px;
+    text-decoration: none;
+    font-family: "Helvetica", sans-serif;
+    text-transform: uppercase;
+    font-weight: lighter;
+    font-size: 16px;
+}
+
+li a:hover {
+    background-color: black;
+}
+
+nav {
+    float: right;
+}
+
+#logo {
+    float: left;
+    padding: 10px;
+    margin-top: 3px;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+	}
