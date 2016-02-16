@@ -17,6 +17,7 @@ h1 {
     text-align: center;
     font-size: 44px;
     color: #993366;
+    margin-top: 10px;
 }
 
 h2, h3 {
@@ -43,6 +44,7 @@ button {
     padding: 10px;
     letter-spacing: 3px;
     clear: both;
+    margin-bottom: 10px;
 }
 
 footer {
