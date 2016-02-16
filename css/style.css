@@ -3,7 +3,10 @@ navy: #040650
 gold: #f1a91f
 */
 
-
+* {
+    margin: 0;
+    padding: 0;
+}
 
 body {
     background-image: url("/img/symphony.png");
@@ -12,10 +15,10 @@ body {
 }
 
 .container {
-    width: 80%;
+    width: 84.5%;
     margin: auto;
     background-color: #f3f3f3;
-    padding: 25px;
+    padding: 0px;
     clear: both;
 }
 
@@ -37,9 +40,11 @@ h2 {
     font-weight: 200;
 }
 
-h3 {
+div > h3 {
     text-align: center;
+    border-bottom: 2px solid #f1a91f;
     color: #f1a91f;
+    margin-bottom: 10px;
 }
 
 ul {
@@ -50,7 +55,7 @@ li {
     text-align: left;
 }
 
-a:link, a:visited {
+ul li a:link, a:visited {
     color:#040650;
     text-decoration: none;
 }
@@ -65,11 +70,12 @@ a:hover {
 
 .week {
     width: 200px;
+    height: 200px;
     border: 3px solid #040650;
     background-color: white;
-    padding: 5px;
+    padding: 20px;
     float: left;
-    margin: 30px;
+    margin: 20px;
 }
 
 
@@ -89,6 +95,22 @@ footer {
     width: 82.5%;
     margin:auto;
     clear: both;
+}
+
+main {
+    width: 70%;
+    float: left;
+    padding: 2.5%;
+}
+
+aside {
+    width: 20%;
+    float: right;
+    background-color: #040650;
+    color: white;
+    padding: 2.5%;
+    height: 1000px;
+    text-align: right;
 }
 
 .self_clear:after {
