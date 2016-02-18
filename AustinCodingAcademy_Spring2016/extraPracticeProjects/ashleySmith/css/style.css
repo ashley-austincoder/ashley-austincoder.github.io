@@ -1,0 +1,12 @@
+.jumbotron {
+    background-image: url("/AustinCodingAcademy_Spring2016/extraPracticeProjects/ashleySmith/img/Austin_Evening.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 444px;
+    margin: auto;
+}
+
+header {
+    color: white;
+    text-align: center;
+}

@@ -1,0 +1,80 @@
+html, body {
+    overflow-x: hidden;
+    font-family: "Helvetica", sans-serif;
+    font-weight: lighter;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #313131;
+    width: 100%;
+}
+
+nav ul {
+    width: 90%;
+    margin: auto;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: left;
+    margin: 10px 20px 10px 0;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    margin-left: 5%;
+}
+
+header {
+    width:100%;
+    margin: auto;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.company, .companybutton {
+    background-color: #55a747;
+}
+
+.employee, .employeebutton {
+    background-color: #313131;
+}
+
+.company, .employee {
+    padding: 5%;
+    float: left;
+    color: white;
+    width: 40%;
+    margin-top: 20px;
+}
+
+button {
+    color: white;
+    font-size: 1em;
+    padding: 10px;
+    border: 3px solid white;
+    float: right;
+}
+

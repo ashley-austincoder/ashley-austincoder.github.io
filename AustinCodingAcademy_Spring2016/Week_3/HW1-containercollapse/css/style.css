@@ -1,0 +1,35 @@
+html {
+    width: 65%;
+    margin: 0 auto;
+}
+
+.parent-container {
+    background-color: dodgerblue;
+    clear: both;
+}
+
+hr {
+    clear: both;
+}
+
+.child-container {
+    background-color: darkgoldenrod;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+}
+ w
+.floating {
+    float: left;
+}
+
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+
+/*Hint: Implement the class that can fix container collapse*/

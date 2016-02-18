@@ -1,74 +1,26 @@
 html, body {
-    overflow-x: hidden;
-    font-family: "Helvetica", sans-serif;
-    font-weight: lighter;
+	margin: 0;
+	padding: 0;
 }
-.full-width-bar {
-  margin: 0 -9999rem;
-  /* add back negative margin value */
-  padding: 0.25rem 9999rem;
-  background-color: #333;
+html {
+	background: #ccc;
 }
-
-header {
-    width: 90%;
-    margin: auto;
+body {
+	width: 600px;
+	background: #fff;
+	margin: 2em auto 2em;
 }
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-
-}
-
-li {
-    float: left;
-}
-
-li a {
-    display: block;
-    color: white;
-    text-align: left;
-    padding: 14px 20px;
-    text-decoration: none;
-}
-
-.container {
-    width: 90%;
-    margin: auto;
-}
-
-.company {
-    background-color: rgb(99,163,92);
-    float: left;
-}
-
-.employee {
-    background-color: rgb(51,51,51);
+div {
+	margin-bottom: 1em;
+	width: 100px;
+	height: 100px;
     float: right;
 }
-
-.company, .employee {
-    padding: 5%;
-    color: white;
-    width: 40%;
-    margin-top: 20px;
+.element1 {
+	background: rgb(211, 206, 61);
 }
-
-button {
-    color: white;
-    font-size: 1em;
-    padding: 10px;
-    border: 3px solid white;
-    float: right;
+.element2 {
+	background: rgb(85, 66, 54);
 }
-
-.employeebutton {
-    background-color: rgb(51,51,51);
-}
-
-.companybutton {
-    background-color: rgb(99,163,92);
-}
+.element3 {
+	background: rgb(247,120,37);

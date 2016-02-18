@@ -1,3 +1,8 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
 header {
     background-color: #333;
 }
@@ -6,8 +11,6 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
-    background-color: #333;
 }
 
 li {
@@ -15,7 +18,7 @@ li {
 }
 
 li a {
-    display: block;
+    display: inline-block;
     color: white;
     text-align: right;
     padding: 30px 12px 30px;
@@ -48,3 +51,8 @@ nav {
 	clear: both;
 	height: 0;
 	}
+
+.container {
+    width: 95%;
+    margin: auto;
+}
