@@ -1,6 +1,5 @@
-SAFE & SECURE DELIVERY
+CSS - TRANSITIONS
 
-Integer congue, elit non semper laoreet sed lectus orci posuh nisl tempor lacus felis ac mauris. Pellentesque in urna. Intege vitae felis vel magna posuere vestibulum.
+make hover effects happen over time
 
-
-Read more
+transition: all 3sec;
