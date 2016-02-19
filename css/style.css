@@ -9,31 +9,26 @@ gold: #f1a91f
 }
 
 body {
-    background-image: url("/img/symphony.png");
-    color: #040650;
+    background-image: url("/AustinCodingAcademy_Spring2016/extraPracticeProjects/ashleySmith/img/forest.jpg");
+      -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
     font-family: 'Open Sans', sans-serif;
+    padding-top: 50px;
 }
 
 .container {
     width: 84.5%;
     margin: auto;
-    background-color: #f3f3f3;
     padding: 0px;
     clear: both;
 }
 
-header {
-    margin-top: 50px;
-    background-color: #f1a91f;
-    padding: 25px;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 h1, h2 {
-    color: #040650;
+    color: white;
     text-align: center;
+    text-shadow: 2px 2px 2px #333;
 }
 
 h2 {
@@ -92,16 +87,12 @@ footer {
     background-color: #f1a91f;
     color: #040650;
     padding: 10px;
-    width: 82.5%;
+    width: 100;
     margin:auto;
     clear: both;
 }
 
-main {
-    width: 70%;
-    float: left;
-    padding: 2.5%;
-}
+
 
 aside {
     width: 20%;
