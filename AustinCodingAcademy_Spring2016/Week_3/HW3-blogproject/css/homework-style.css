@@ -95,6 +95,16 @@ header {
     border-right: 2px solid #f1f1f1 
 }
 
+ul {
+    list-style: none;
+    margin-left: -40px;
+    line-height: 22px
+}
+
+.fa-check {
+    color: green;
+}
+
 #infocolumns > div:last-child {
     border-right: none;
 }
@@ -118,5 +128,5 @@ a {
 
 a:hover {
     text-decoration: underline;
-    color: darkblue;
+    color: darkblue; 
 }
