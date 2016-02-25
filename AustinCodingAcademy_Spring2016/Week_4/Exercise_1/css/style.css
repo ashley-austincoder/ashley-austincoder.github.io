@@ -125,6 +125,11 @@ span {
         margin-bottom: 5%;
     }
     
+    #tres > div > a {
+    display: block;
+    text-align: center;
+    }
+    
 }
 
 @media all and (max-width: 1200px) {
