@@ -1,29 +1,29 @@
-/* color palette:
-navy: #040650
-gold: #f1a91f
-*/
-
-body,
-html {
-    margin: 0;
-    padding: 0;
+body {
+    font-family: 'Open Sans', sans-serif;
 }
 
-body {
-    background-image: url("/AustinCodingAcademy_Spring2016/extraPracticeProjects/ashleySmith/img/forest.jpg");
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+header {
+    background-image: url('../img/sky-night-space-galaxy.jpeg');
     background-size: cover;
-    font-family: 'Open Sans', sans-serif;
-    padding-top: 50px;
+    padding: 150px 0;
+    width: 100%;
+}
+
+main {
+    width: 90%;
+    margin: auto;
 }
 
 .container {
-    width: 84.5%;
-    margin: auto;
-    padding: 0px;
-    clear: both;
+    display: flex;
+    flex-direction: column;
+}
+
+.linkstohw {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 50px 0;
 }
 
 h1,
@@ -33,15 +33,32 @@ h2 {
     text-shadow: 2px 2px 2px #333;
 }
 
-h2 {
-    font-weight: 200;
+h1 {
+    font-size: 2.5em;
 }
+
+h2 {
+    font-size: 1.25em;
+    font-weight: 200;
+    margin-top: 20px;
+}
+
+
+.week {
+    background-color: #eee;
+    margin: 1%;
+    padding: 2%;
+    width: 200px;
+    min-height: 200px;
+}
+
 
 div > h3 {
     text-align: center;
-    border-bottom: 2px solid #f1a91f;
     color: #f1a91f;
     margin-bottom: 10px;
+    font-family: 'Merriweather', serif;
+    font-size: 1.5em;
 }
 
 ul {
@@ -56,70 +73,18 @@ ul li a:link,
 a:visited {
     color: #040650;
     text-decoration: none;
+    line-height: 1.8em;
 }
 
-a:hover {
+ul li a:hover {
     text-decoration: underline;
 }
 
-.linkstohw {
-    clear: both;
-}
-
-.week {
-    width: 200px;
-    height: 200px;
-    border: 3px solid #040650;
-    background-color: white;
-    padding: 20px;
-    float: left;
-    margin: 20px;
-}
-
-main > img {
-    display: block;
-    width: 300px;
-    margin-left: auto;
-    margin-right: auto;
-    border: 3px solid #040650;
-}
-
 footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
     text-align: center;
-    color: white;
-    text-shadow: 2px 2px 5px black;
-    padding: 10px;
-    width: 100;
-    margin: auto;
-    clear: both;
 }
 
-aside {
-    width: 20%;
-    float: right;
-    background-color: #040650;
-    color: white;
-    padding: 2.5%;
-    height: 1000px;
-    text-align: right;
-}
 
-aside li a:link,
-aside li a:visited {
-    color: #f1a91f;
-    text-decoration: none;
-    text-align: right;
-}
-
-aside ul {
-    display: inline-block;
-    color: #f1a91f;
-    text-decoration: none;
-    text-align: right;
-}
-
-.self_clear:after {
-    content: "";
-    clear: both;
-    display: table;
-}
