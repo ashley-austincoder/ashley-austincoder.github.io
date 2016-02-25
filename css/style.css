@@ -3,17 +3,18 @@ navy: #040650
 gold: #f1a91f
 */
 
-* {
+body,
+html {
     margin: 0;
     padding: 0;
 }
 
 body {
     background-image: url("/AustinCodingAcademy_Spring2016/extraPracticeProjects/ashleySmith/img/forest.jpg");
-      -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     font-family: 'Open Sans', sans-serif;
     padding-top: 50px;
 }
@@ -25,7 +26,8 @@ body {
     clear: both;
 }
 
-h1, h2 {
+h1,
+h2 {
     color: white;
     text-align: center;
     text-shadow: 2px 2px 2px #333;
@@ -50,8 +52,9 @@ li {
     text-align: left;
 }
 
-ul li a:link, a:visited {
-    color:#040650;
+ul li a:link,
+a:visited {
+    color: #040650;
     text-decoration: none;
 }
 
@@ -73,7 +76,6 @@ a:hover {
     margin: 20px;
 }
 
-
 main > img {
     display: block;
     width: 300px;
@@ -88,11 +90,9 @@ footer {
     text-shadow: 2px 2px 5px black;
     padding: 10px;
     width: 100;
-    margin:auto;
+    margin: auto;
     clear: both;
 }
-
-
 
 aside {
     width: 20%;
@@ -104,7 +104,8 @@ aside {
     text-align: right;
 }
 
-aside li a:link, aside li a:visited {
+aside li a:link,
+aside li a:visited {
     color: #f1a91f;
     text-decoration: none;
     text-align: right;
@@ -117,9 +118,8 @@ aside ul {
     text-align: right;
 }
 
-
 .self_clear:after {
-  content: "";
-  clear: both;
-  display: table;
+    content: "";
+    clear: both;
+    display: table;
 }

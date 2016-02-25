@@ -1,0 +1,139 @@
+/* index.html page */
+
+p, h1, a {
+    font-family: "Open Sans", "Helvetica", sans-serif;
+    color: white;
+}
+
+.garden {
+    background-image: url("../img/1.jpg");
+    background-size: cover;
+    text-align: center;
+    line-height: 2.5;
+}
+
+.lead {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+}
+
+.serif {
+    font-family: "Georgia", serif;
+    font-size: 18px;
+    letter-spacing: .05em;
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+
+.garden > div {
+    background-color: rgba(0, 0, 0, .5);
+    padding: 200px 0;
+}
+
+a {
+    text-decoration: none;
+    background-color: #66CD00;
+    padding: 10px 25px;
+    color: white;
+}
+
+
+
+
+/* services.html page */
+
+h2 {
+    color: #66CD00;
+    margin: 10px 0;
+    font-family: 'Open Sans', 'Helvetica', sans-serif
+}
+
+p {
+    font-size: 14px;
+    font-weight: lighter;
+    line-height: 2em;
+}
+
+#services {
+    display: flex;
+    display: -webkit-flex;
+    flex: row;
+    width: 90%;
+    margin: auto;
+    margin-top: 2%;
+}
+
+.left {
+    flex-direction: column;
+    flex: 1;
+}
+
+#uno {
+    background-image: url('../img/featured-image-3.jpg');
+    background-size: cover;
+    margin-bottom: 5%;
+}
+
+#dos {
+    background-image: url('../img/featured-image-4.jpg');
+    background-size: cover;
+}
+
+#tres {
+    background-image: url('../img/featured-image-5.jpg');
+    background-size: cover;
+    flex: 2;
+    margin-left: 2%;
+    padding: 75px 25px;
+}
+
+#uno > div, #dos > div {
+    background-color: rgba(0, 0, 0, .5);
+    padding: 75px 25px;
+}
+
+#tres > div > a {
+    background-color: #333;
+    border: 2px solid #333;
+}
+
+#tres > div > a:last-child {
+    background-color: transparent;
+    border: 2px solid white;
+}
+
+span {
+    margin-right: 20px;
+}
+
+
+/* MOBILE */
+
+@media all and (max-width: 600px) {
+    #services {
+        flex-direction: column;
+    }
+    
+    #tres {
+        order: -1;
+        margin-left: 0;
+        margin-bottom: 5%;
+    }
+    
+}
+
+@media all and (max-width: 1200px) {
+    h1 {
+        font-size: 30px;
+    }
+}
+
+
+
+
+
