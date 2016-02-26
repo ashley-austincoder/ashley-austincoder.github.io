@@ -99,18 +99,6 @@ padding: 3%;
     display: block;
 }
 
-.currenthw:hover {
-    background: rgba(94,3,99,1);
-background: -moz-linear-gradient(top, rgba(94,3,99,1) 0%, rgba(73,155,234,1) 100%);
-background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(94,3,99,1)), color-stop(100%, rgba(73,155,234,1)));
-background: -webkit-linear-gradient(top, rgba(94,3,99,1) 0%, rgba(73,155,234,1) 100%);
-background: -o-linear-gradient(top, rgba(94,3,99,1) 0%, rgba(73,155,234,1) 100%);
-background: -ms-linear-gradient(top, rgba(94,3,99,1) 0%, rgba(73,155,234,1) 100%);
-background: linear-gradient(to bottom, rgba(94,3,99,1) 0%, rgba(73,155,234,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5e0363', endColorstr='#499bea', GradientType=0 );
-transition: all 3s ease;
-}
-
 .currenthw a, .currenthw a:hover {
     color: white;
 }
