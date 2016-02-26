@@ -1,0 +1,18 @@
+/* Fonts CSS */
+
+@font-face {
+    font-family: 'Lavanderia';
+    src: url(../fonts/Lavanderia.otf);
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 3em;
+    color: mediumspringgreen;
+}
+
+p {
+    font-family: 'Lavanderia';
+    font-size: 26px;
+}
