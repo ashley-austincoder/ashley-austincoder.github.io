@@ -116,6 +116,8 @@ span {
 #testimonial > div {
     background-color: rgba(0, 0, 0, .8);
     padding: 150px 0; 
+    margin-top: -5px;
+
 }
 
 #testimonial h3, #testimonial p {
