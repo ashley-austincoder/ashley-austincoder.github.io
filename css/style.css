@@ -111,6 +111,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5e0363', end
 transition: all 3s ease;
 }
 
-.currenthw a {
+.currenthw a, .currenthw a:hover {
     color: white;
 }
