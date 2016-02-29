@@ -1,12 +1,121 @@
-.jumbotron {
-    background-image: url("/AustinCodingAcademy_Spring2016/extraPracticeProjects/ashleySmith/img/Austin_Evening.jpg");
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 444px;
-    margin: auto;
+/* color pallette
+darker blue: #0D6889
+red: #DC2026
+yellow: #EFC818
+ligher blue: #01AED5
+*/
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
 }
 
-header {
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.stripes {
+    background-image: url('../img/header-05.png');
+    background-repeat: repeat-x;
+    padding: 19px;
+    margin-bottom: 10px;
+}
+
+nav h1 {
+    font-size: 4em;
+    font-weight: 300;
+    color: #0D6889;
+    float: left;
+    margin-left: 20px;
+}
+
+nav ul {
+    float: right;    
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 52px 20px 0 0;
+    font-size: 1.25em;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    color: #01AED5;
+}
+
+.feature {
+    background-image:url(../img/apple-desk-crop.jpg);
+    background-size: cover;
+    padding: 173px 0;
+    text-align: center;
+}
+
+.feature h2 {
+    color: white;
+    font-size: 4em;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px black;
+    margin-bottom: 40px;
+}
+
+.feature a {
+    background-color: #EFC818;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font-size: 1.5em;
+}
+
+.feature a:hover {
+    background-color: #DC2026;
+    transition: all .5s;
+}
+
+h3 {
+    color: #0D6889;
+}
+
+.container {
+    display: flex;
+    margin-top: 30px;
+}
+
+@media screen and (max-width: 1000px) {
+    .container {
+        flex-direction: row;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        flex-direction: column;
+    }
+}
+
+.col {
+    margin: 20px;
+    padding: 10px;
+    flex: 1
+}
+
+
+.col p {
+    font-size: 1.1em;
+    line-height: 1.8em
+}
+
+footer {
+    background-color: #EFC818;
     color: white;
     text-align: center;
+    padding: 20px;
+    
 }

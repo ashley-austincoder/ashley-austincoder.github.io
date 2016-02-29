@@ -95,8 +95,6 @@ footer {
 .currenthw {
 background: #aaa;
 padding: 3%;
-    border: 1px solid #aaa;
-    display: block;
 }
 
 .currenthw a, .currenthw a:hover {
