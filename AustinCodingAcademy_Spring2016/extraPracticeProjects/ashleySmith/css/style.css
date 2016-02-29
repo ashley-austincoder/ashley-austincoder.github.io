@@ -31,6 +31,7 @@ nav h1 {
     color: #0D6889;
     float: left;
     margin-left: 20px;
+    margin-top: 24px;
 }
 
 nav ul {
@@ -136,4 +137,8 @@ footer {
     margin: auto;
     padding: 5%;
     margin-top: 30px;
+}
+
+nav h1 a:hover {
+    text-decoration: none;
 }
