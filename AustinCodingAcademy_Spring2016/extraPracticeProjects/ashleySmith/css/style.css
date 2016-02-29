@@ -119,6 +119,15 @@ h3 {
     line-height: 1.8em
 }
 
+.col a {
+    color: #0D6889;
+}
+
+.col a:hover {
+    color: #01AED5;
+    text-decoration: none;
+}
+
 footer {
     background-color: #EFC818;
     color: white;
