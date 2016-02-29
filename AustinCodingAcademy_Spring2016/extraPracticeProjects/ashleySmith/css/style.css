@@ -76,22 +76,24 @@ nav ul li a:hover {
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: .1em;
-    font-size: 1.5em;
+    font-size: 1.25em;
 }
 
 .feature a:hover {
     background-color: #DC2026;
-    transition: all .5s;
+    transition: all 1s;
 }
 
 h3 {
     color: #0D6889;
+    font-size: 1.5em;
 }
 
 .container {
     display: flex;
     margin-top: 30px;
 }
+
 
 @media screen and (max-width: 1000px) {
     .container {
@@ -113,7 +115,7 @@ h3 {
 
 
 .col p {
-    font-size: 1.1em;
+    font-size: .9em;
     line-height: 1.8em
 }
 
