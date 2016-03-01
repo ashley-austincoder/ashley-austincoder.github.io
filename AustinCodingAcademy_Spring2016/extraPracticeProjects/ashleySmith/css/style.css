@@ -4,6 +4,7 @@ red: #DC2026
 yellow: #EFC818
 ligher blue: #01AED5
 */
+
 .clearfix:after {
     clear: both;
     content: ".";
@@ -64,7 +65,6 @@ nav ul li a:hover {
 .feature h2 {
     color: white;
     font-size: 4em;
-    font-weight: bold;
     text-shadow: 2px 2px 2px black;
     margin-bottom: 40px;
 }
