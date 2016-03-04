@@ -1,0 +1,54 @@
+body {
+    font-family: 'Helvetica', sans-serif;
+    color: #141c15;
+}
+
+header {
+    background-color: #141c15;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: .1em;
+    font-size: 2em;
+    padding: 20px;
+}
+
+.headerimg img {
+    width: 100%;
+}
+
+h2 {
+    font-size: 2.5em;
+    padding: 20px 0;
+    text-align: center;
+}
+
+p {
+    width: 75%;
+    margin: auto;
+    line-height: 1.75em;
+}
+
+
+#photos {
+    margin-top: 30px;
+}
+
+#photos > div {
+    width: 25%;
+    float: left;
+}
+
+#photos div:first-child {
+    margin-left: 12.5%
+}
+
+#photos img {
+    width: 100%;
+    -webkit-clip-path: inset(5% 11% 15% 10%);
+    clip-path: inset(5% 11% 15% 10%);
+}
+
+#problemchild img {
+    width: 118%;
+}
