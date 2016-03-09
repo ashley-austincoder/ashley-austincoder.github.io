@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    color: white;
+    url('../img/bg2.jpg');
+        background-size: cover;
+        padding: 15% 5%;
+}
+
+main h1, main p {
+    width: 75%;
+}
+
+h1 {
+    font-size: 3em;
+    }
+
+.blog_section {
+    background-color: #cdcdcd;
+    color: #2F4F4F;
+    padding: 25px;
+    
+}
+
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+
+@media screen and (max-width:700px) {
+    main {
+        background-image: url('../img/bg2.jpg');
+        background-size: cover;
+    }
+    
+}
+
+@media screen and (min-width:701px) {
+    main {
+        background-image: url(../img/bg.jpg);
+    }
+    
+    h1 {
+        font-size: 4em;
+        width: 40%;
+    }
+    
+    main p {
+        font-size: 1.5em;
+        width: 40%;
+    }
+    
+    .post {
+        float: left;
+        width:45%;
+        margin: 0 2.5%;
+    }
+    
+}

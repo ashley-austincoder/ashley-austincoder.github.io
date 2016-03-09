@@ -1,0 +1,56 @@
+/* LAPTOP AND STANDARD */
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+main {
+    background-image: url('../img/sub_header_home.jpg');
+    background-size: cover;
+    text-align: center;
+    color: white;
+    padding: 15%;
+}
+
+section div {
+    float: left;
+    width: 25%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+h1 {
+    font-family: 'Georgia', serif;
+    font-size: 3em;
+    margin-bottom: 15px;
+}
+
+h2 {
+    color: #880000;
+    font-weight: bold;
+}
+
+/* PHONE */
+
+
+@media screen and (max-width: 767px) { 
+    section div {
+        width: 100%;
+    }
+
+}
+
+
+
+/* TABLET */
+
+
+@media screen and (min-width: 768px) and (max-width: 991px) { 
+    section div {
+        width: 50%;
+    }
+
+}
+
+
+
