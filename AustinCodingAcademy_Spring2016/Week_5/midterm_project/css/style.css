@@ -53,6 +53,51 @@ nav ul li a:hover {
     background: url('../img/paw_printblue.png') top center no-repeat;
 }
 
+/****** NAV MEDIA QUERIES *******/
+@media screen and (max-width: 975px) {
+    nav {
+        padding: 0;
+    }
+    nav, nav ul, h1 {
+        float:none;
+        text-align: center;
+    }
+    nav ul{
+         display: flex;
+    }
+    nav ul li {  
+        margin: 15px;
+        flex: 1;
+        justify-content: space-around;
+    }
+    nav img {
+        display: none;
+    }
+    nav ul li a:hover {
+    padding-top: 27px;
+    background:none;
+    color: lightgrey;
+}
+    nav ul {
+        background-color:#A9054B;
+        color: white;
+ 
+    }
+    
+    nav ul li a {
+        color: white;
+    }
+}
+
+@media screen and (max-width: 700px){
+    nav ul {
+        display: block;
+    }
+    nav ul li {
+        float: none;
+    }
+    
+}
 
 /* main */
 
@@ -149,7 +194,6 @@ h3 {
 }
 
 .columns-section {
-    display: flex;
     background: rgba(255, 93, 177, 1);
     background: -moz-linear-gradient(top, rgba(255, 93, 177, 1) 0%, rgba(169, 5, 75, 1) 51%, rgba(169, 5, 75, 1) 70%);
     background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255, 93, 177, 1)), color-stop(51%, rgba(169, 5, 75, 1)), color-stop(70%, rgba(169, 5, 75, 1)));
@@ -165,9 +209,33 @@ h3 {
 
 .columns {
     text-align: center;
-    justify-content: space-between;
-    flex: 1;
-    padding: 0 10px;
+    float: left;
+    width: 23%;
+    padding: 1%;
+}
+/* COLUMNS MEDIA QUERIES!!!!*/
+@media screen and (min-width:725px) and (max-width: 975px) {
+    .columns {
+        width:48%;
+    }
+}
+
+@media screen and (max-width:724px){
+    .columns {
+        width: 98%;
+    }
+    .columns-section {
+        background: none;
+        color: black;
+    }
+    
+    .columns-section h4 {
+        color: black;
+    }
+    
+    .info {
+        display: none;
+    }
 }
 
 
@@ -197,6 +265,16 @@ pink: #A9054B*/
 
 figure div:hover {
     display: block;
+}
+
+@media screen and (max-width:724px) {
+    .figcaption_section > figure {
+        width: 90%;
+    }
+    
+    .figcaption_section {
+         background-color: #d4d4d4;
+    }
 }
 
 
@@ -231,3 +309,16 @@ button:hover {
     -moz-box-shadow: -4px 1px 60px -16px rgba(0, 0, 0, 0.56);
     box-shadow: -4px 1px 60px -16px rgba(0, 0, 0, 0.56);
 }
+
+@media screen and (max-width:724px) {
+    footer {
+        text-align: center;
+    }
+    footer button {
+        display: block;
+        margin: auto;
+    }
+}
+
+
+
