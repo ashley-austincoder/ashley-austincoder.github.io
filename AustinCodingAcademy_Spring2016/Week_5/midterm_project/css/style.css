@@ -87,6 +87,10 @@ nav ul li a:hover {
     nav ul li a {
         color: white;
     }
+    
+    h1 {
+        font-size: 1em;
+    }
 }
 
 @media screen and (max-width: 700px){
@@ -235,6 +239,9 @@ h3 {
     
     .info {
         display: none;
+    }
+    main h1 {
+        font-size: 1.5em;
     }
 }
 

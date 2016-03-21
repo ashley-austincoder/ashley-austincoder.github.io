@@ -1,0 +1,23 @@
+main {
+    background-image: url("../img/bg.jpg");
+    background-size: cover;
+    padding: 20%;
+    color: white;
+}
+
+main h1 {
+    font-size: 4em;
+    font-family: 'Georgia';
+    width: 65%;
+
+}
+
+main p {
+    font-size: 1.5em;
+    width: 65%;
+
+}
+
+.columns {
+    background-color: #d3d3d3;
+}
