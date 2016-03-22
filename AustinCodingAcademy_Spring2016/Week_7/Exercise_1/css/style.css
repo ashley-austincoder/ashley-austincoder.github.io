@@ -1,9 +1,3 @@
-.img_placeholder {
-    width: 45%;
-    height: 150px;
-    background-color: orange;
-    float: right;
-}
 
 footer {
     background-color: seagreen;
@@ -12,7 +6,6 @@ footer {
     color: white;
 }
 
-.rubicks {
-    width: 30%;
-    float: right;
+.portfolio {
+    width: 100%;
 }
