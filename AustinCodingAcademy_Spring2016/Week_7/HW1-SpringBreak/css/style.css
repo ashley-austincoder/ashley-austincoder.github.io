@@ -1,0 +1,43 @@
+img {
+    width: 100%;
+}
+
+body {
+    background-color: #d3d3d3;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    text-align: center;
+    color: #990000;
+}
+
+h1, h2 {
+    font-weight: bold;
+    color: #990000;
+}
+
+h1 {
+    font-size: 3.5em;
+}
+h1, h2, nav, header p {
+    font-family: 'Orbitron', sans-serif;
+}
+
+.margintop {
+    margin-top: 20px;
+}
+
+.buttonstyle {
+    width: 100%;
+    background-color: #990000;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+form {
+    width: 100%;
+}
+
