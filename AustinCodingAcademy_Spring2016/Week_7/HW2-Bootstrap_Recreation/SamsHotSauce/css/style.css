@@ -1,0 +1,53 @@
+/* COLOR SCHEME
+dk red: #911B07
+lt red: #FF0000
+dk grn: #2D5240
+yellow: #FFA300
+*/
+
+#mainbtn a, .btn-info{
+    background-color: #ff0000;
+    border: 2px solid #FFA300;
+}
+
+#mainbtn a:hover, .btn-info:hover {
+    background-color: #ffa300;
+}
+
+
+.flavor {
+    margin-top: 20px;
+}
+
+header {
+    background-image:url(../img/hotsauce.jpeg);
+    background-size: cover;
+}
+
+#myHeader {
+    background-color: rgba(0,0,0,.9);
+}
+
+#myNav {
+    background-color: #ffa300;
+}
+
+/* RECIPES*/
+
+.recipes {
+    background-color: #2d5240;
+}
+
+.recipes h2, .recipes h3 {
+    color: white;
+}
+
+#team {
+    background-color: #911B07;
+    color: white;
+}
+
+.aboutus {
+    color: #ffa300;
+}
+
