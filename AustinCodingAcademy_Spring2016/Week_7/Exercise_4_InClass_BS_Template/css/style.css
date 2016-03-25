@@ -1,0 +1,28 @@
+/******** HEADER STYLE ********/
+/*#201D1E*/
+
+.my_logo {
+    width: 250px;
+}
+
+.my_header {
+    background-color: rgb(34,34,34);
+    padding: 15px 0;
+}
+
+.my_nav {
+    background-color:rgb(34,34,34);
+    border-radius: none;
+    border: none;
+}
+
+#nav-collapse ul li a, #navtitle > a {
+    color: white;
+}
+
+/* carousel */
+
+#carousel-example-generic {
+    max-height: 459px;
+    overflow: hidden;
+}

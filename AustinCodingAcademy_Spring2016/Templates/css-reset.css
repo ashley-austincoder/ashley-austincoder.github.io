@@ -19,6 +19,13 @@ time, mark, audio, video {
     vertical-align: baseline;
 }
 
+body {
+-webkit-font-smoothing: antialiased;
+text-rendering: optimizelegibility;
+}
+
+
+
 .clearfix:after {
     clear: both;
     content: ".";
