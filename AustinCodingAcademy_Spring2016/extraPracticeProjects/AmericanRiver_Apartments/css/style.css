@@ -46,6 +46,29 @@ h2 {
     color: white;
 }
 
+
+/* Content Block One */
+
+content-block-one h1 {
+    color: red;
+}
+
+@media screen and (max-width:767px) {
+    .item h2 {
+        display: none;
+    }
+    .item button {
+        display: block;
+        margin: auto;
+        margin-top: 5px;
+        width: 200px;
+    }
+}
+
+
+
+
+/**********JAKE *************/
 .content-block-one {
     padding: 30px;
     margin-bottom: 0px;
@@ -87,8 +110,10 @@ h2 {
     }
     .content-block-one h1,
     .content-block-one .h1 {
-        font-size: 63px;
+        font-size: 38px;
     }
+    
+    
 }
 
 .content-space-one {
@@ -150,7 +175,7 @@ section {
 #footer {
     height: 60px;
     background-color:#333;
-    text-align: center
+    text-align: center;
     margin-top:50px;
     padding-top:20px;
     padding-bottom:20px;
