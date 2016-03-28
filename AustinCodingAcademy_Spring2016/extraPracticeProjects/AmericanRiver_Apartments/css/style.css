@@ -32,13 +32,16 @@ h1, h2, h3 {
 /*BUTTONS*/
 
 button.outlinebtn {
-    background-color: rgba(142, 65, 84, .8);
+    background-color: rgb(142, 65, 84);
     font-family: 'Montserrat', sans-serif;
     font-size: 1.1em;
+    border: none;
+    margin-left: 5px;
 }
 
 button.outlinebtn:hover {
-    background-color: rgb(142, 65, 84);
+    background-color: #8e4154;
+    border: none;
 }
 
 /*carousel ashley*/
