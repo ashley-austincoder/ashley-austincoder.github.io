@@ -66,6 +66,16 @@ h1, h2, nav, header p {
 }
 }
 
+/* modal */
+
+.modal_section {
+    margin: 30px;
+}
+
+#modal-backdrop {
+   background-color: #990000;
+}
+
 /* Img and mailing list row*/
 .mailinglistrow img, .thumbnailrow img {
     width: 100%;
