@@ -1,7 +1,3 @@
-img {
-    width: 100%;
-}
-
 body {
     background-color: #d3d3d3;
     font-family: 'Roboto', sans-serif;
@@ -9,7 +5,7 @@ body {
     padding: 0;
 }
 
-header {
+#header {
     text-align: center;
     color: #990000;
 }
@@ -26,10 +22,27 @@ h1, h2, nav, header p {
     font-family: 'Orbitron', sans-serif;
 }
 
-.margintop {
-    margin-top: 20px;
+.navbar-inverse {
+    margin-bottom: 0;
 }
 
+/* carousel */
+.row {
+    margin-top: 0;
+}
+
+#carousel-example-generic div img {
+    overflow: hidden;
+    width: 100%;
+}
+
+.carousel-inner > div {
+    max-height: 611px;
+    margin-top: 0;
+}
+
+
+/* News */
 
 
 .thumbnail {
@@ -41,14 +54,24 @@ h1, h2, nav, header p {
     width: 100%;
     background-color: #990000;
     color: white;
-    padding: 10px;
+    padding: 15px;
+    margin: 10px;
     border-radius: 5px;
     text-transform: uppercase;
 }
 
-form {
+@media screen and (max-width:991px){
+.news img {
     width: 100%;
 }
+}
+
+/* Img and mailing list row*/
+.mailinglistrow img, .thumbnailrow img {
+    width: 100%;
+}
+
+
 
 #footer {
     background-color: #333;
@@ -65,4 +88,62 @@ padding: 20px;
 @media screen and (max-width:768px) {
     #infosection {
     text-align: center;}
+}
+
+
+
+/*parallax*/
+.content-block-one {
+  padding: 30px 0 50px;
+  color: white;
+  background-color: #333;
+    text-align: center;
+}
+.content-block-one form {
+    width: 100%;
+    margin: auto;
+}
+
+.content-block-one h1,
+.content-block-one .h1 {
+  color: inherit;
+}
+.content-block-one p {
+  font-size: 21px;
+  font-weight: 200;
+}
+
+.container .content-block-one {
+  border-radius: 6px;
+}
+.content-block-one .container {
+  max-width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .content-block-one {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+  .container .content-block-one {
+    padding-right: 60px;
+    padding-left: 60px;
+  }
+  .content-block-one h1,
+  .content-block-one .h1 {
+    font-size: 42px;
+  }
+}
+
+.content-space-one {
+  padding: 0px;
+  margin-bottom: 0px;
+  color: inherit;
+  background: url(../img/horizontaltires.jpeg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
