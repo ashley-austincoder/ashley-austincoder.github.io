@@ -1,0 +1,121 @@
+/*Main CSS*/
+
+body {
+    background-image: url('../img/sparkles_background.jpg');
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizelegibility;
+}
+
+.character img {
+    height: 150px;
+}
+
+.main_section img {
+    width: 70%;
+    padding: 10px;
+}
+
+.main_section {
+    outline: 5px solid white;
+    height: 560px;
+    color: white;
+    background: rgba(89, 89, 89, 1);
+    background: -moz-linear-gradient(left, rgba(89, 89, 89, 1) 0%, rgba(71, 71, 71, 1) 0%, rgba(44, 44, 44, 1) 0%, rgba(43, 43, 43, 1) 0%, rgba(76, 76, 76, 1) 29%, rgba(17, 17, 17, 1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(89, 89, 89, 1)), color-stop(0%, rgba(71, 71, 71, 1)), color-stop(0%, rgba(44, 44, 44, 1)), color-stop(0%, rgba(43, 43, 43, 1)), color-stop(29%, rgba(76, 76, 76, 1)), color-stop(100%, rgba(17, 17, 17, 1)));
+    background: -webkit-linear-gradient(left, rgba(89, 89, 89, 1) 0%, rgba(71, 71, 71, 1) 0%, rgba(44, 44, 44, 1) 0%, rgba(43, 43, 43, 1) 0%, rgba(76, 76, 76, 1) 29%, rgba(17, 17, 17, 1) 100%);
+    background: -o-linear-gradient(left, rgba(89, 89, 89, 1) 0%, rgba(71, 71, 71, 1) 0%, rgba(44, 44, 44, 1) 0%, rgba(43, 43, 43, 1) 0%, rgba(76, 76, 76, 1) 29%, rgba(17, 17, 17, 1) 100%);
+    background: -ms-linear-gradient(left, rgba(89, 89, 89, 1) 0%, rgba(71, 71, 71, 1) 0%, rgba(44, 44, 44, 1) 0%, rgba(43, 43, 43, 1) 0%, rgba(76, 76, 76, 1) 29%, rgba(17, 17, 17, 1) 100%);
+    background: linear-gradient(to right, rgba(89, 89, 89, 1) 0%, rgba(71, 71, 71, 1) 0%, rgba(44, 44, 44, 1) 0%, rgba(43, 43, 43, 1) 0%, rgba(76, 76, 76, 1) 29%, rgba(17, 17, 17, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#595959', endColorstr='#111111', GradientType=1);
+}
+
+.main_section:first-child {
+    padding-top: 45px;
+}
+
+.marginfix {
+    padding: 0;
+}
+
+button {
+    margin: 10px;
+    width: 250px;
+}
+
+h2,
+h3,
+.lead {
+    font-family: 'Leckerli One', cursive;
+}
+
+
+/*CHARACTER BOXES*/
+
+.character {
+    color: white;
+    height: 280px;
+    background-color: pink;
+    outline: 5px solid white;
+}
+
+.char1 {
+    background: repeating-radial-gradient( circle, purple, purple 10px, #4b026f 10px, #4b026f 20px);
+}
+
+.char2 {
+    background: rgba(179, 220, 237, 1);
+    background: -moz-linear-gradient(left, rgba(179, 220, 237, 1) 0%, rgba(41, 184, 229, 1) 50%, rgba(188, 224, 238, 1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(179, 220, 237, 1)), color-stop(50%, rgba(41, 184, 229, 1)), color-stop(100%, rgba(188, 224, 238, 1)));
+    background: -webkit-linear-gradient(left, rgba(179, 220, 237, 1) 0%, rgba(41, 184, 229, 1) 50%, rgba(188, 224, 238, 1) 100%);
+    background: -o-linear-gradient(left, rgba(179, 220, 237, 1) 0%, rgba(41, 184, 229, 1) 50%, rgba(188, 224, 238, 1) 100%);
+    background: -ms-linear-gradient(left, rgba(179, 220, 237, 1) 0%, rgba(41, 184, 229, 1) 50%, rgba(188, 224, 238, 1) 100%);
+    background: linear-gradient(to right, rgba(179, 220, 237, 1) 0%, rgba(41, 184, 229, 1) 50%, rgba(188, 224, 238, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#b3dced', endColorstr='#bce0ee', GradientType=1);
+}
+
+.char3 {
+    background-color: #EF8034;
+}
+
+.char4 {
+    background: repeating-linear-gradient( 45deg, #7A0505, #7A0505 10px, #333 10px, #333 20px);
+}
+
+.char5 {
+    background: repeating-linear-gradient( -55deg, #F79721, #F79721 10px, #57217A 10px, #57217A 20px);
+}
+
+.char6 {
+    background-color: #EF69A5;
+}
+
+.char7 {
+    background-color: #B6D31A;
+}
+
+.char8 {
+    background: repeating-radial-gradient( circle, #A2120D, #A2120D 10px, #DE2F5A 10px, #DE2F5A 20px);
+}
+
+
+/* footer */
+
+.footer {
+    background: repeating-linear-gradient( 45deg, #606dbc, #606dbc 10px, #465298 10px, #465298 20px);
+    width: 100%;
+    height: 50px;
+    margin-top: 30px;
+    color: white;
+    border-top: 5px solid white;
+}
+
+.footer p {
+    margin-top: 12px;
+}
+
+
+/*Animation CSS*/
+
+.hide_me {
+    visibility: hidden;
+}

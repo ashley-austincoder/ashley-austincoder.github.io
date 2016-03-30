@@ -6,3 +6,8 @@
     line-height: 0;
     visibility: hidden;
 }
+
+my_container {
+    height: 1200px;
+    background-color: blue;
+}

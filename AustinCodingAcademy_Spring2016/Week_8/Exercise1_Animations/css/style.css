@@ -1,0 +1,25 @@
+body {
+    background-color: pink;
+}
+
+.my_container {
+    height: 600px;
+    background: repeating-linear-gradient( 45deg, #606dbc, #606dbc 10px, #465298 10px, #465298 20px);
+}
+
+.my_second {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: aqua;
+    color: #465298;
+}
+
+.horse {
+    width: 300px;
+}
+
+header {
+    padding: 20px;
+    color:#465298;
+    text-transform: uppercase;
+}
