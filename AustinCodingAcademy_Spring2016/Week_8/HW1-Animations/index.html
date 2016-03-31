@@ -10,6 +10,7 @@
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
 
     <!-- Animate -->
     <link href="css/animate.css" rel="stylesheet">
@@ -31,41 +32,42 @@
 
 <body>
 
-    <div class="container">
+    <div class="container" id="main_container">
 
         <div class="row">
 
             <div class="col-md-6 col-sm-12 main_section text-center">
                 <p class="lead">This is the one and only</p>
                 <img src="img/candylandlogo.png" alt="candyland logo" class="animated pulse infinite">
-                <p>Play at your own risk</p>
-                <button class="btn btn-success btn-lg animated shake" id="start_button">CLICK TO START</button>
+                <p>Will make this a game once I'm a real programmer!</p>
+                <button class="btn btn-success btn-lg animated shake" id="start_button">CLICK TO START (once)</button>
                 <br>
-                <button class="btn btn-danger btn-lg animated shake">CLICK ME IF YOU DARE</button>
+                <button class="btn btn-danger btn-lg animated shake" id="danger_button">CLICK ME IF YOU DARE</button>
+
 
             </div>
 
             <div class="col-md-3 col-sm-6 character text-center char1 hide_me" id="char1">
-                    <h2>King Kandy</h2>
-                    <img src="img/king.png">
-                    <p>He lives in a castle made of sweets.</p>
+                <h2>King Kandy</h2>
+                <img src="img/king.png" class="rubberband">
+                <p>He lives in a castle made of sweets.</p>
             </div>
 
             <div class="col-md-3 col-sm-6 character char2 text-center hide_me" id="char2">
                 <h2>Queen Frostine</h2>
-                <img src="img/queenfrostine.png">
+                <img src="img/queenfrostine.png" class="rubberband">
                 <p>Decorates anything in her path with frosting.</p>
             </div>
 
             <div class="col-md-3 col-sm-6 character char3 text-center hide_me" id="char3">
                 <h2>Princess Lolly</h2>
-                <img src="img/lolly.png">
+                <img src="img/lolly.png" class="flash">
                 <p>Loves dancing and exploring.</p>
             </div>
 
-            <div class="col-md-3 col-sm-6 character char4 text-center hide_me"  id="char4">
+            <div class="col-md-3 col-sm-6 character char4 text-center hide_me" id="char4">
                 <h2>Lord Licorice</h2>
-                <img src="img/mrlicorice.png">
+                <img src="img/mrlicorice.png" class="flash">
                 <p>Villian of Candyland.</p>
             </div>
         </div>
@@ -74,35 +76,62 @@
 
         <div class="row">
             <div class="col-md-6 col-sm-12 marginfix">
-                <div class="character text-center char5 col-md-6 col-sm-6 hide_me"  id="char5">
+                <div class="character text-center char5 col-md-6 col-sm-6 hide_me" id="char5">
                     <h2>Gramma Nut</h2>
-                    <img src="img/peanutlady.png">
+                    <img src="img/peanutlady.png" class="flip_me">
                     <p>The all around caretaker</p>
                 </div>
 
-                <div class="character text-center char6 col-md-6 col-sm-6 hide_me"  id="char6">
+                <div class="character text-center char6 col-md-6 col-sm-6 hide_me" id="char6">
                     <h2>Plumpy</h2>
-                    <img src="img/mrplum.png">
+                    <img src="img/mrplum.png" class="flip_me">
                     <p>He lives under the gingerbread tree.</p>
                 </div>
 
-                <div class="character text-center char7 col-md-6 col-sm-6 hide_me"  id="char7">
+                <div class="character text-center char7 col-md-6 col-sm-6 hide_me" id="char7">
                     <h2>Jolly</h2>
                     <img src="img/jelloman.png" class="flip_me">
                     <p>Weird happy monster.</p>
                 </div>
 
-                <div class="character text-center char8 col-md-6 col-sm-6 hide_me"  id="char8">
+                <div class="character text-center char8 col-md-6 col-sm-6 hide_me" id="char8">
                     <h2>Mr Mint</h2>
-                    <img src="img/mint.png">
+                    <img src="img/mint.png" class="flip_me">
                     <p>Resides in the Candy Cane Forest.</p>
                 </div>
             </div>
-            <div class="col-md-6 col-sm-12 main_section pull-right clearfix text-center">
+            <div class="col-md-6 col-sm-12 main_section pull-right clearfix text-center hide_me" id="board">
                 <h3>See you in Candy Land</h3>
                 <p>Oh! When you're down and looking for some cheering up Then just head right on up to the candy mountain cave When you get inside you'll find yourself a cheery land Such a happy and joyful and perky, merry land They've got lollipops and gummy drops and candy things Oh so many things that will brighten up your day It's impossible to wear a frown in candy town It's the mecca of love, the candy cave They've got jelly beans and coconuts with little hats Candy rats, chocolate bats, it's a wonderland of sweets Ride the candy train to town and hear the candy band Candy bells it's a treat as they march across the land Cherry ribbons stream across the sky into the ground Turn around It astounds!</p>
-                <img src="img/CandylandBoxCover.png">
-                <button class="btn btn-primary btn-lg">MODAL TIME</button>
+                <img src="img/CandylandBoxCover.png" class="animated infinite bounce">
+
+                <div class="text-center clearfix modal_section">
+
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-success btn-lg" data-toggle="modal" data-target="#myModal">
+                    Broken Modal :(
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                <h4 class="modal-title" id="myModalLabel">Welcome to Candyland</h4>
+                            </div>
+                            <div class="modal-body">
+                                One day perhaps I'll program the real game....
+                                <img src="img/tire.jpeg">
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Save changes</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
             </div>
 
         </div>
@@ -127,6 +156,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.js"></script>
     <script src="js/animate-scroll.js"></script>
 </body>
 

@@ -20,11 +20,27 @@ $(document).ready(function () {
         $('#char7').removeClass('hide_me');
         $('#char8').addClass('animated fadeInUpBig');
         $('#char8').removeClass('hide_me');
+        $('#board').removeClass('hide_me');
+        $('#board').addClass('animated fadeInUpBig');
+
 
     });
 });
 
+//danger button
 
+$(document).ready(function () {
+    
+    var animatedEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
+
+    $('#danger_button').click(function () {
+
+        $('#main_container').addClass('animated flip').one(animatedEnd, function() {
+            $(this).removeClass('animated flip');
+        });
+        
+    });
+});
 
 
 
@@ -59,15 +75,36 @@ $(document).ready(function () {
 
         var verticalScroll = $(this).scrollTop();
 
+        
+        if (verticalScroll > 15) {
+
+            $('.rubberband').addClass('animated rubberBand');
+
+        }
+        
+        if (verticalScroll > 50) {
+
+            $('.flash').addClass('animated wobble');
+
+        }
+        
+        
         if (verticalScroll > 320) {
 
             $('.flip_me').addClass('animated flip');
 
         }
+        
         console.log(verticalScroll);
 
     });
 
+
+// modal
+
+$('#pageopen').modal({
+        show: true
+});
 
 
 
