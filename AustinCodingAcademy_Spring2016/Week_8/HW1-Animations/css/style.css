@@ -114,6 +114,9 @@ h3,
 }
 
 
+body.modal-open div.modal-backdrop { z-index: 0; }
+
+
 /*Animation CSS*/
 
 .hide_me {

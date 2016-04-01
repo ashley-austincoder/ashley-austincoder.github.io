@@ -4,26 +4,18 @@ $(document).ready(function () {
 
     $('#start_button').click(function () {
 
+
         $('#char1').addClass('animated fadeInDownBig');
-        $('#char1').removeClass('hide_me');
         $('#char2').addClass('animated fadeInRightBig');
-        $('#char2').removeClass('hide_me');
         $('#char3').addClass('animated fadeInDownBig');
-        $('#char3').removeClass('hide_me');
         $('#char4').addClass('animated fadeInUpBig');
-        $('#char4').removeClass('hide_me');
         $('#char5').addClass('animated fadeInUpBig');
-        $('#char5').removeClass('hide_me');
         $('#char6').addClass('animated fadeInUpBig');
-        $('#char6').removeClass('hide_me');
         $('#char7').addClass('animated fadeInUpBig');
-        $('#char7').removeClass('hide_me');
         $('#char8').addClass('animated fadeInUpBig');
-        $('#char8').removeClass('hide_me');
-        $('#board').removeClass('hide_me');
         $('#board').addClass('animated fadeInUpBig');
-
-
+        $('#char1,#char2,#char3,#char4,#char5,#char6,#char7,#char8,#board').removeClass('hide_me');
+        
     });
 });
 
@@ -98,17 +90,3 @@ $(document).ready(function () {
         console.log(verticalScroll);
 
     });
-
-
-// modal
-
-$('#pageopen').modal({
-        show: true
-});
-
-
-
-
-
-
-
