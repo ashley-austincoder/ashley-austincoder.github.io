@@ -192,6 +192,7 @@ skin: #fedf79
 #work {
     background-color: #ee2824;
     color: white;
+    padding-bottom: 20px;
 }
 
 #work h2 {
@@ -219,6 +220,6 @@ skin: #fedf79
 
 .footer {
     padding: 20px 0;
-    color: black;
+    color: white;
     font-size: 1.2em;
 }
