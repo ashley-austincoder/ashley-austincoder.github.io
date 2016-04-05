@@ -52,8 +52,12 @@ text-rendering: optimizelegibility;
     text-transform: lowercase;
 }
 
+#my_nav a:hover {
+    color:#c29c3c;
+}
+
 .jumbotron {
-    background-image: url(../img/fullsailor-nologo.jpg);
+    background-image: url(../img/fullsailor-code.jpg);
     background-size: cover;
     padding: 200px 0;
     margin-top: -80px;
@@ -68,14 +72,14 @@ text-rendering: optimizelegibility;
 /* About Me */
 
 .about_me {
-    background-color: #C09A3B;
+    background-color: #810700;
     padding: 50px 0;
     margin-top: -30px;
-    color: black;
+    color: white;
 }
 
 .about_me a, h2 {
-    color: black;
+    color: white;
     font-family: 'Open Sans', sans-serif;
     font-weight: lighter;
 }
@@ -84,7 +88,7 @@ text-rendering: optimizelegibility;
 }
 
 .about_me a:hover {
-    color: #333;
+    color: #aaa;
     text-decoration: none;
     
 }
@@ -93,11 +97,6 @@ text-rendering: optimizelegibility;
     line-height: 1.5em;
 }
 
-h2 {
-    text-transform: uppercase;
-    font-size: 1.25em;
-    font-weight: bold;
-}
 
 
 
@@ -105,7 +104,35 @@ h2 {
 
 .skills_section {
     margin: 20px 0;
+    color: black;
 }
+
+#skills h2 {
+    margin-top: 30px;
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5em;
+    color: black;
+}
+
+#skills {
+    background-color: #c29c3c;
+}
+
+#skills a {
+    text-decoration: none;
+    color: black;
+}
+
+#skills h3 {
+    font-size: 1.5em;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#skills p {
+    line-height: 1.5em;
+}
+
+/* jobs quote */
 
 .content-space-one {
   padding: 0px;
@@ -120,35 +147,37 @@ h2 {
   padding-bottom: 100px;
     line-height: 1.8em;
 }
-.content-space-one a {
-    color: #aaa;
+
+.content-space-one p {
+    text-align: center;
+    font-size: 1.2em;
+    line-height: 2em;
 }
 
-.content-space-one h2 {
-    color: #C09A3B;
-    font-size: 2em;
+/* work section */
+
+#work {
+    background-color: #810700;
+    color: white;
 }
 
-.content-space-one h3 {
-   color: #C09A3B; 
-    font-size: 1.3em;
+#work h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5em;
+    margin-top: 20px;
 }
 
-.content-space-two {
-  padding: 0px;
-  margin-bottom: 0px;
-  color: inherit;
-  background: url(../img/garndeing.jpeg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  padding-top: 100px;
-  padding-bottom: 100px;
+#work h3, #work p, #work a {
+    color: white;
+    line-height: 1.5em;
 }
-.page-break {
-    width: 50%;
-    height: 3px;
-    background-color: #fff;
-    margin: 0 auto;
+
+#work h3 {
+    font-size: 1.25em;
+    text-transform: uppercase;
+}
+#work img {
+    width: 100%;
+    outline: 3px solid white;
+    margin-top: 10px;
 }
