@@ -1,0 +1,154 @@
+/* CSS RESET */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* sexytext */
+body {
+-webkit-font-smoothing: antialiased;
+text-rendering: optimizelegibility;
+}
+
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+
+
+
+/* MAIN CSS */
+
+.navbar-default {
+  background: none;
+  border: none;
+  border-radius: 0;
+  border-bottom: 1px solid rgba(255,255,255,.3);
+}
+
+#my_nav a {
+    color: white;
+    font-family: 'Playfair Display', serif;
+    text-transform: lowercase;
+}
+
+.jumbotron {
+    background-image: url(../img/fullsailor-nologo.jpg);
+    background-size: cover;
+    padding: 200px 0;
+    margin-top: -80px;
+}
+
+.logo {
+    width: 360px;
+    margin: 0;
+    padding: 0;
+}
+
+/* About Me */
+
+.about_me {
+    background-color: #C09A3B;
+    padding: 50px 0;
+    margin-top: -30px;
+    color: black;
+}
+
+.about_me a, h2 {
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+}
+.about_me span {
+    font-size: 2.75em;
+}
+
+.about_me a:hover {
+    color: #333;
+    text-decoration: none;
+    
+}
+
+.about_me p {
+    line-height: 1.5em;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-size: 1.25em;
+    font-weight: bold;
+}
+
+
+
+/* SKILLS-PARALLAX */
+
+.skills_section {
+    margin: 20px 0;
+}
+
+.content-space-one {
+  padding: 0px;
+  margin-bottom: 0px;
+  color: white;
+  background: url(../img/code.jpeg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 100px;
+    line-height: 1.8em;
+}
+.content-space-one a {
+    color: #aaa;
+}
+
+.content-space-one h2 {
+    color: #C09A3B;
+    font-size: 2em;
+}
+
+.content-space-one h3 {
+   color: #C09A3B; 
+    font-size: 1.3em;
+}
+
+.content-space-two {
+  padding: 0px;
+  margin-bottom: 0px;
+  color: inherit;
+  background: url(../img/garndeing.jpeg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.page-break {
+    width: 50%;
+    height: 3px;
+    background-color: #fff;
+    margin: 0 auto;
+}
