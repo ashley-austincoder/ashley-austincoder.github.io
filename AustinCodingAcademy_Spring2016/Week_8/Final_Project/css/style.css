@@ -35,6 +35,11 @@ text-rendering: optimizelegibility;
     visibility: hidden;
 }
 
+/* COLORS 
+red: #ee2824
+purple: #44165f
+skin: #fedf79
+*/
 
 
 /* MAIN CSS */
@@ -53,13 +58,13 @@ text-rendering: optimizelegibility;
 }
 
 #my_nav a:hover {
-    color:#c29c3c;
+    color:#fedf79;
 }
 
 .jumbotron {
-    background-image: url(../img/fullsailor-code.jpg);
+    background-image: url(../img/rosie-code.jpg);
     background-size: cover;
-    padding: 200px 0;
+    padding: 220px 0;
     margin-top: -80px;
 }
 
@@ -72,7 +77,7 @@ text-rendering: optimizelegibility;
 /* About Me */
 
 .about_me {
-    background-color: #810700;
+    background-color: #ee2824;
     padding: 50px 0;
     margin-top: -30px;
     color: white;
@@ -104,28 +109,40 @@ text-rendering: optimizelegibility;
 
 .skills_section {
     margin: 20px 0;
-    color: black;
+    color: white;
 }
 
 #skills h2 {
     margin-top: 30px;
+    margin-bottom: 15px;
     font-family: 'Playfair Display', serif;
     font-size: 2.5em;
-    color: black;
+    color: white;
+}
+ 
+/* Gradient color1 - color2 - color1 */
+
+.line_break{
+    width:90%;
+    color: white;
+    border: none;
+    border-bottom: 1.5px solid white;
+    margin-top: 25px;
 }
 
-#skills {
-    background-color: #c29c3c;
+#skills, .footer {
+    background-color: #44165f;
 }
 
 #skills a {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 #skills h3 {
     font-size: 1.5em;
     font-family: 'Open Sans', sans-serif;
+    margin-top: -20px;
 }
 
 #skills p {
@@ -138,7 +155,7 @@ text-rendering: optimizelegibility;
   padding: 0px;
   margin-bottom: 0px;
   color: white;
-  background: url(../img/code.jpeg) no-repeat center center fixed; 
+  background: url(../img/fullsailor-code.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -148,16 +165,32 @@ text-rendering: optimizelegibility;
     line-height: 1.8em;
 }
 
-.content-space-one p {
+.content-space-one p, .content-space-two p {
     text-align: center;
     font-size: 1.2em;
     line-height: 2em;
 }
 
+
+.content-space-two {
+  padding: 0px;
+  margin-bottom: 0px;
+  color: white;
+  background: url(../img/rosie-code.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 300px;
+  padding-bottom: 300px;
+    line-height: 1.8em;
+}
+
+
 /* work section */
 
 #work {
-    background-color: #810700;
+    background-color: #ee2824;
     color: white;
 }
 
@@ -180,4 +213,12 @@ text-rendering: optimizelegibility;
     width: 100%;
     outline: 3px solid white;
     margin-top: 10px;
+}
+
+/* footer */
+
+.footer {
+    padding: 20px 0;
+    color: black;
+    font-size: 1.2em;
 }
