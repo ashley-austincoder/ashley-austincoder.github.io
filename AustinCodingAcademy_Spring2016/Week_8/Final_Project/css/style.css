@@ -55,6 +55,11 @@ skin: #fedf79
     color: white;
     font-family: 'Playfair Display', serif;
     text-transform: lowercase;
+    font-size: 1.15em;
+}
+
+.navbar-brand {
+    font-size: 2em;
 }
 
 #my_nav a:hover {
@@ -93,7 +98,7 @@ skin: #fedf79
 }
 
 .about_me a:hover {
-    color: #aaa;
+    color: #44165f;
     text-decoration: none;
     
 }
