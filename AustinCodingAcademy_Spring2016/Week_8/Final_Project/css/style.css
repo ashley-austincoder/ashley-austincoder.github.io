@@ -66,6 +66,12 @@ skin: #fedf79
     color:#fedf79;
 }
 
+#bs-example-navbar-collapse-1, .navbar-brand {
+    background-color: #44165f;
+}
+
+
+
 .jumbotron {
     background-image: url(../img/rosie-code.jpg);
     background-size: cover;
