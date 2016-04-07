@@ -79,6 +79,15 @@ skin: #fedf79
     margin-top: -80px;
 }
 
+.jumbotron h2{
+    font-size: 1.75em;
+    font-family: 'Playfair Display', serif;
+    color: white;
+    font-weight: bold;
+     text-shadow:3px 3px 3px black;
+}
+}
+
 .logo {
     width: 360px;
     margin: 0;
